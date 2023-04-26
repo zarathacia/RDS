@@ -38,7 +38,7 @@ MapDrawer::MapDrawer(Atlas* pAtlas, const string& strSettingPath)
     mCameraSize = fSettings["Viewer.CameraSize"];
     mCameraLineWidth = fSettings["Viewer.CameraLineWidth"];
 }
-
+//draws the map points on the Viewer
 void MapDrawer::DrawMapPoints()
 {
     const vector<MapPoint*>& vpMPs = mpAtlas->GetAllMapPoints();
